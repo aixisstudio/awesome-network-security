@@ -1,0 +1,6 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+title: Awesome Network Security
+description: A curated list of network security tools — firewalls, sniffers, IDS, honeypots
+show_downloads: false
