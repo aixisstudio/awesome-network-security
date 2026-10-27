@@ -1,0 +1,28 @@
+# awesome-network-security
+> A curated list of network security tools — firewalls, sniffers, IDS, honeypots
+Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
+Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+
+## Content
+## 🛡️ Firewalls & Traffic Filtering
+
+| Tool | Description |
+|---|---|
+| [Snitch](https://github.com/aixisstudio/Snitch) | Open-source app firewall — see & block every outbound connection, per-process, Sigma rules, 8 languages |
+| [OpenSnitch](https://github.com/evilsocket/opensnitch) | Linux application firewall inspired by Little Snitch |
+| [Portmaster](https://github.com/safing/portmaster) | Application firewall with DNS-level privacy protections |
+| [LuLu](https://github.com/objective-see/LuLu) | The gold-standard outbound firewall for macOS |
+| [simplewall](https://github.com/henrypp/simplewall) | Lightweight WFP-based firewall for Windows |
+| [nftables](https://netfilter.org/projects/nftables/) | The modern Linux packet-filtering framework |
+| [pfSense](https://github.com/pfsense/pfsense) | FreeBSD firewall/router distribution |
+| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Collaborative IPS — blocks hostile IPs using community intel |
+| [fail2ban](https://github.com/fail2ban/fail2ban) | Classic log-based brute-force protector |
+
+## 📡 Packet Capture & Analysis
+
+| Tool | Description |
+|---|---|
+| [Wireshark](https://gitlab.com/wireshark/wireshark) | The reference protocol analyzer |
+| [tcpdump](https://github.com/the-tcpdump-group/tcpdump) | CLI packet capture — everywhere, always |
+| [Sniffnet](https://github.com/GyulyVGC/sniffnet) | Modern Rust-based traffic monitor with beautiful UI |
+| [Arkime](https://github.com/arkime/arkime) | Full packet capture + inde
