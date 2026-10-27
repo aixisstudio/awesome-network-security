@@ -1,9 +1,7 @@
 # awesome-network-security
 > A curated list of network security tools — firewalls, sniffers, IDS, honeypots
-Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
-Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://github.com/aixisstudio/awesome-network-security
 
-## Content
 ## 🛡️ Firewalls & Traffic Filtering
 
 | Tool | Description |
@@ -25,4 +23,5 @@ Languages: English README with French, Spanish, Chinese, Japanese and Russian tr
 | [Wireshark](https://gitlab.com/wireshark/wireshark) | The reference protocol analyzer |
 | [tcpdump](https://github.com/the-tcpdump-group/tcpdump) | CLI packet capture — everywhere, always |
 | [Sniffnet](https://github.com/GyulyVGC/sniffnet) | Modern Rust-based traffic monitor with beautiful UI |
-| [Arkime](https://github.com/arkime/arkime) | Full packet capture + inde
+| [Arkime](https://github.com/arkime/arkime) | Full packet capture + indexing for large networks |
+| [mitmproxy](https://github.com/mitmproxy/mitmproxy) | Interactive HTTPS 
