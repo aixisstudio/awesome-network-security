@@ -84,6 +84,39 @@ _詳細なコンテンツ（リスト・リンク・説明）は保守のため�
 
 > **Legend**: 🔥 = actively maintained · ⭐ = editor's pick · All tools free & open-source unless noted.
 
+## 🧰 Reverse Engineering & Traffic Analysis extras
+
+| Tool | Description |
+|---|---|
+| [PacketTotal](https://packettotal.com/) | Cloud pcap analysis — upload, get protocol breakdown |
+| [A-Packets](https://apackets.com/) | Online pcap visualizer |
+| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | Passive sniffer for forensic extraction |
+| [BruteShark](https://github.com/odedshimon/BruteShark) | Network forensics toolkit |
+| [PCredz](https://github.com/lgandx/PCredz) | Credential extraction from pcaps |
+
+## 🚦 Traffic Shaping & QoS
+| Tool | Description |
+|---|---|
+| [NetLimiter](https://www.netlimiter.com/) | Per-app bandwidth control (Windows) |
+| `tc` + `tc-cake` | Linux traffic control — shape any flow |
+| [Wondershaper](https://github.com/magnific0/wondershaper) | Simple bandwidth limiting script |
+| [Trickle](https://github.com/mariusae/trickle) | Per-process rate limiting |
+
+## 📡 SD-WAN & Virtual Networks
+| Tool | Description |
+|---|---|
+| [Tailscale](https://github.com/tailscale/tailscale) | WireGuard mesh VPN — zero config |
+| [ZeroTier](https://github.com/zerotier/ZeroTierOne) | Virtual Ethernet for the planet |
+| [Netbird](https://github.com/netbirdio/netbird) | Open-source WireGuard management |
+| [Innernet](https://github.com/tonarino/innernet) | Rust WireGuard orchestration |
+
+## 🕵️ Egress & Leak Detection
+| Tool | Description |
+|---|---|
+| [Canary Tokens](https://github.com/thinkst/canarytokens) | Free tripwires for data exfil |
+| [GREYNOISE](https://www.greynoise.io/) | Is that IP scanning you or the whole internet? |
+| [IPQualityScore](https://www.ipqualityscore.com/) | IP reputation checks |
+
 ---
 ## 貢献
 
