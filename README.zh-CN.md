@@ -4,118 +4,116 @@
 
 网络安全工具精选 — 防火墙、嗅探器、IDS、蜜罐
 
-_详细内容（列表、链接、描述）以英文维护 — 以下章节为你指引。_
+##### 防火墙和交通过滤
 
-## 🛡️ Firewalls & Traffic Filtering
-
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | Open-source app firewall — see & block every outbound connection, per-process, Sigma rules, 8 languages |
-| [OpenSnitch](https://github.com/evilsocket/opensnitch) | Linux application firewall inspired by Little Snitch |
-| [Portmaster](https://github.com/safing/portmaster) | Application firewall with DNS-level privacy protections |
-| [LuLu](https://github.com/objective-see/LuLu) | The gold-standard outbound firewall for macOS |
-| [simplewall](https://github.com/henrypp/simplewall) | Lightweight WFP-based firewall for Windows |
-| [nftables](https://netfilter.org/projects/nftables/) | The modern Linux packet-filtering framework |
-| [pfSense](https://github.com/pfsense/pfsense) | FreeBSD firewall/router distribution |
-| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Collaborative IPS — blocks hostile IPs using community intel |
-| [fail2ban](https://github.com/fail2ban/fail2ban) | Classic log-based brute-force protector |
+QQ [Snitch] (https://github.com/aixisstudio/Snitch) QQ 开源应用防火墙 — 见 & 屏蔽每条出入口连接, 每个进程, 西格玛规则, 8种语言 QQ
+QQ[OpenSnitch](https://github.com/evilsocket/opensnitch) Linux应用防火墙,灵感来自小Snitch QQ
+QQ [Portmaster] (https://github.com/safing/portmaster) QQ 应用防火墙 带有 DNS级隐私保护 QQ
+[卢鲁] (https://github.com/objective-see/LuLu) |. MacOS 的黄金标准出境防火墙QQ
+(https://github.com/henrypp/simplewall) QQ 轻量级 WFP为 Windows 设计的防火墙
+[表 (https://netfilter.org/projects/nftables/)                                          现代 Linux 包过滤框架 QQ
+[pfSense](https://github.com/pfsense/pfsense)#################################################################################################################################################################################################################################################
+[人群Sec](https://github.com/crowdsecurity/crowdsec) 协作IPS — 使用社区英特尔来阻挡敌对IPs QQ.
+[失败2ban](https://github.com/fail2ban/fail2ban) 经典的基于日志的野蛮力量保护者 |
 
-## 📡 Packet Capture & Analysis
+# # # # # 包装抓取与分析
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Wireshark](https://gitlab.com/wireshark/wireshark) | The reference protocol analyzer |
-| [tcpdump](https://github.com/the-tcpdump-group/tcpdump) | CLI packet capture — everywhere, always |
-| [Sniffnet](https://github.com/GyulyVGC/sniffnet) | Modern Rust-based traffic monitor with beautiful UI |
-| [Arkime](https://github.com/arkime/arkime) | Full packet capture + indexing for large networks |
-| [mitmproxy](https://github.com/mitmproxy/mitmproxy) | Interactive HTTPS interception proxy |
-| [bettercap](https://github.com/bettercap/bettercap) | Swiss-army knife for network attacks & monitoring |
-| [EtherApe](https://etherape.sourceforge.io/) | Graphical network traffic browser |
-| [ngrep](https://github.com/jpr5/ngrep) | grep for the network layer |
+[Wireshark] (https://gitlab.com/wireshark/wireshark) | | 参考协议分析器 QQ
+[tcpdump](https://github.com/the-tcpdump-group/tcpdump) ================================================================================================================================================================================================================================================
+[Sniffnet](https://github.com/GyulyVGC/sniffnet)##################################################################################################################################################################################################################################################
+[Arkime](https://github.com/arkime/arkime) QQ 完整包捕获+大网络索引QQ
+[mitmproxy](https://github.com/mitmproxy/mitmproxy) \ \ \ 交互式 HTTPS 截取代理 \ \
+[bettercap](https://github.com/bettercap/bettercap) 用于网络攻击和监控的瑞士兵器刀 |
+[乙醚](https://etherape.sourceforge.io/) QQ 图形网络流量浏览器QQ
+[ngrep](https://github.com/jpr5/ngrep) 网络层的grep |
 
-## 🚨 IDS / IPS & Detection
+□ QQ IDS / IPS 和检测
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Suricata](https://github.com/OISF/suricata) | High-performance IDS/IPS/NSM engine |
-| [Zeek](https://github.com/zeek/zeek) | Network security monitor with deep protocol analysis |
-| [Snort](https://www.snort.org/) | The original open-source IPS |
-| [Wazuh](https://github.com/wazuh/wazuh) | XDR + SIEM for endpoints and cloud |
-| [OSSEC](https://github.com/ossec/ossec-hids) | Host-based intrusion detection |
-| [Maltrail](https://github.com/stamparm/Maltrail) | Malicious-traffic detection from public blacklists |
-| [RITA](https://github.com/activecm/rita) | Beaconing & C2 detection from Zeek logs |
+高性能的IDS/IPS/NSM引擎 QQ
+[Zeek](https://github.com/zeek/zeek) 网络安全监视器 深协议分析 |
+[吸 (https://www.snort.org/) | 原始开源 IPS QQ
+[Wazuh](https://github.com/wazuh/wazuh) + XDR + SIEM 用于端点和云 + .
+[OSSEC](https://github.com/ossec/ossec-hids) |基于主机的入侵探测 |
+[Maltrail](https://github.com/stamparm/Maltrail) 从公共黑名单中发现的恶意交通...
+[RITA](https://github.com/activecm/rita) 从Zeek日志中检测到灯塔和C2
 
-## 🔍 Scanning & Recon
+□ 扫描和调试
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Nmap](https://github.com/nmap/nmap) | The port scanner |
-| [Masscan](https://github.com/robertdavidgraham/masscan) | Internet-scale port scanning |
-| [Zmap](https://github.com/zmap/zmap) | Single-packet whole-Internet scanner |
-| [RustScan](https://github.com/RustScan/RustScan) | Blazing-fast modern scanner |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | Template-based vulnerability scanner |
+[Nmap] (https://github.com/nmap/nmap) |. 端口扫描仪 {}
+[Masscan] (https://github.com/robertdavidgraham/masscan) 互联网规模的端口扫描 |
+[Zmap](https://github.com/zmap/zmap) 单包全互联网扫描仪
+[RustScan] (https://github.com/RustScan/RustScan)#################################################################################################################################################################################################################################################
+[Nuclei](https://github.com/projectdiscovery/nuclei) QQ基于模板的脆弱性扫描仪 QQ
 
-## 🍯 Honeypots & Deception
+# # # 蜜壶和欺骗
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Cowrie](https://github.com/cowrie/cowrie) | SSH/Telnet honeypot |
-| [T-Pot](https://github.com/telekom-security/tpotce) | All-in-one multi-honeypot platform |
-| [Dionaea](https://github.com/DinoTools/dionaea) | Malware-catching honeypot |
-| [OpenCanary](https://github.com/thinkst/opencanary) | Lightweight daemon honeypot |
+[牛](https://github.com/cowrie/cowrie) SSH/Telnet蜂蜜罐
+[T-Pot](https://github.com/telekom-security/tpotce) | | | | | | - | | | | | | | | | | |
+[Dionaea](https://github.com/DinoTools/dionaea) 马利沃捕蜜罐
+轻量级守护神蜜罐
 
-## 🌐 DNS & Privacy
+□ & DNS 隐私
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Pi-hole](https://github.com/pi-hole/pi-hole) | Network-wide ad & tracker blocking |
-| [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) | DNS-level privacy server |
-| [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | Encrypted DNS proxy (DoH/DoT/DNSCrypt) |
-| [unbound](https://github.com/NLnetLabs/unbound) | Validating recursive resolver |
+[Pi-hole](https://github.com/pi-hole/pi-hole) 腾讯网全网广告和追踪器屏蔽 腾讯网.
+[AdGuard Home] (https://github.com/AdguardTeam/AdGuardHome) DNS级隐私服务器 腾讯网.
+[dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) 加密DNS代理(DoH/DoT/DNSCrypt) |.
+[无约束](https://github.com/NLnetLabs/unbound) 校验递归解解解解解解解解解解解解
 
-## 📊 Monitoring & Dashboards
+□ QQ 监视和显示板
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [ntopng](https://github.com/ntop/ntopng) | Web-based traffic visibility |
-| [Netdata](https://github.com/netdata/netdata) | Real-time system & network metrics |
-| [Kismet](https://www.kismetwireless.net/) | Wireless network detector & sniffer |
-| [vnStat](https://github.com/vergoh/vnstat) | Lightweight traffic accounting |
+[ntopng] (https://github.com/ntop/ntopng) 腾讯网交通知名度 腾讯网.
+[Netdata](https://github.com/netdata/netdata) | 实时系统和网络度量衡 |
+[吻] (https://www.kismetwireless.net/) | 无线网络探测器和嗅觉 |
+[vnStat](https://github.com/vergoh/vnstat) 轻量级交通核算 |
 
-> **Legend**: 🔥 = actively maintained · ⭐ = editor's pick · All tools free & open-source unless noted.
+> ** Legend**: = 积极维护 = = 编辑器选择 = 除非注明,否则所有工具都免费开放源代码.
 
-## 🧰 Reverse Engineering & Traffic Analysis extras
+□ 反向工程和交通分析额外
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [PacketTotal](https://packettotal.com/) | Cloud pcap analysis — upload, get protocol breakdown |
-| [A-Packets](https://apackets.com/) | Online pcap visualizer |
-| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | Passive sniffer for forensic extraction |
-| [BruteShark](https://github.com/odedshimon/BruteShark) | Network forensics toolkit |
-| [PCredz](https://github.com/lgandx/PCredz) | Credential extraction from pcaps |
+[PacketTotal](https://packettotal.com/)                                 
+[A-Packets] (https://apackets.com/) | Online pcap可视化器 |
+[网工] (https://www.netresec.com/?page=NetworkMiner) 被动嗅探器用于法证提取
+[BruteShark] (https://github.com/odedshimon/BruteShark) 网络法证工具包 |
+[PCredz] (https://github.com/lgandx/PCredz) 校对:Soup
 
-## 🚦 Traffic Shaping & QoS
-| Tool | Description |
+###### 交通塑造 & QoS
+* 工具 * * 描述 * *
 |---|---|
-| [NetLimiter](https://www.netlimiter.com/) | Per-app bandwidth control (Windows) |
-| `tc` + `tc-cake` | Linux traffic control — shape any flow |
-| [Wondershaper](https://github.com/magnific0/wondershaper) | Simple bandwidth limiting script |
-| [Trickle](https://github.com/mariusae/trickle) | Per-process rate limiting |
+[NetLimiter](https://www.netlimiter.com/) 每一个应用程序的带宽控制(Windows) |
+• `tc` + `tc-cake` + Linux 交通管制—— 塑造任何流量
+[Wondershaper](https://github.com/magnific0/wondershaper) 简单带宽限制脚本 {}
+[Trickle] (https://github.com/mariusae/trickle) – 过程率限制 – 过程率限制 –
 
-## 📡 SD-WAN & Virtual Networks
-| Tool | Description |
+□ □ SD-WAN和虚拟网络
+* 工具 * * 描述 * *
 |---|---|
-| [Tailscale](https://github.com/tailscale/tailscale) | WireGuard mesh VPN — zero config |
-| [ZeroTier](https://github.com/zerotier/ZeroTierOne) | Virtual Ethernet for the planet |
-| [Netbird](https://github.com/netbirdio/netbird) | Open-source WireGuard management |
-| [Innernet](https://github.com/tonarino/innernet) | Rust WireGuard orchestration |
+[标 (https://github.com/tailscale/tailscale) |线卫视网易VPN 零配置 |线卫视.
+[ZeroTier](https://github.com/zerotier/ZeroTierOne) 虚拟以太网 行星 |
+[Netbird](https://github.com/netbirdio/netbird) 开放源代码线导管理 腾讯网.
+[内网] (https://github.com/tonarino/innernet)####################################################################################################################################################################################################################################################
 
-## 🕵️ Egress & Leak Detection
-| Tool | Description |
+□□□□□□□□
+* 工具 * * 描述 * *
 |---|---|
-| [Canary Tokens](https://github.com/thinkst/canarytokens) | Free tripwires for data exfil |
-| [GREYNOISE](https://www.greynoise.io/) | Is that IP scanning you or the whole internet? |
-| [IPQualityScore](https://www.ipqualityscore.com/) | IP reputation checks |
+[卡纳里·托肯斯] (https://github.com/thinkst/canarytokens) 数据输出的免费绊线 |
+[GREYNOISE] (https://www.greynoise.io/) | 是IP扫描你还是整个互联网?
+[IP质量评分] (https://www.ipqualityscore.com/) QQIP声誉检查 QQ.
 
 ---
 ## 贡献
