@@ -4,118 +4,116 @@
 
 Une sélection d'outils de sécurité réseau — pare-feux, sniffers, IDS, honeypots
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
+Pare-feu et filtrage du trafic
 
-## 🛡️ Firewalls & Traffic Filtering
-
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | Open-source app firewall — see & block every outbound connection, per-process, Sigma rules, 8 languages |
-| [OpenSnitch](https://github.com/evilsocket/opensnitch) | Linux application firewall inspired by Little Snitch |
-| [Portmaster](https://github.com/safing/portmaster) | Application firewall with DNS-level privacy protections |
-| [LuLu](https://github.com/objective-see/LuLu) | The gold-standard outbound firewall for macOS |
-| [simplewall](https://github.com/henrypp/simplewall) | Lightweight WFP-based firewall for Windows |
-| [nftables](https://netfilter.org/projects/nftables/) | The modern Linux packet-filtering framework |
-| [pfSense](https://github.com/pfsense/pfsense) | FreeBSD firewall/router distribution |
-| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Collaborative IPS — blocks hostile IPs using community intel |
-| [fail2ban](https://github.com/fail2ban/fail2ban) | Classic log-based brute-force protector |
+[Snitch](https://github.com/aixisstudio/Snitch)= Pare-feu de l'application Open-source — voir et bloquer chaque connexion sortante, par processus, règles Sigma, 8 langues=
+[OpenSnitch](https://github.com/evilsocket/opensnitch)= Pare-feu d'application Linux inspiré par Little Snitch=
+[Portmaster](https://github.com/safing/portmaster)= Pare-feu d'application avec protection de la vie privée DNS
+[LuLu](https://github.com/objective-see/LuLu) Le pare-feu or standard pour macOS
+Pare-feu léger basé sur le PAM pour Windows
+(https://netfilter.org/projects/nftables/) Le cadre moderne de filtrage des paquets Linux
+[pfSense](https://github.com/pfsense/pfsense)= Distribution FreeBSD pare-feu/routeur=
+[CrowdSec](https://github.com/crowdsecurity/crowdsec)=PIP en collaboration — bloque les IP hostiles en utilisant l'information communautaire=
+[fail2ban](https://github.com/fail2ban/fail2ban)
 
-## 📡 Packet Capture & Analysis
+Capture et analyse des paquets
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Wireshark](https://gitlab.com/wireshark/wireshark) | The reference protocol analyzer |
-| [tcpdump](https://github.com/the-tcpdump-group/tcpdump) | CLI packet capture — everywhere, always |
-| [Sniffnet](https://github.com/GyulyVGC/sniffnet) | Modern Rust-based traffic monitor with beautiful UI |
-| [Arkime](https://github.com/arkime/arkime) | Full packet capture + indexing for large networks |
-| [mitmproxy](https://github.com/mitmproxy/mitmproxy) | Interactive HTTPS interception proxy |
-| [bettercap](https://github.com/bettercap/bettercap) | Swiss-army knife for network attacks & monitoring |
-| [EtherApe](https://etherape.sourceforge.io/) | Graphical network traffic browser |
-| [ngrep](https://github.com/jpr5/ngrep) | grep for the network layer |
+(https://gitlab.com/wireshark/wireshark) L'analyseur de protocole de référence
+[tcpdump](https://github.com/the-tcpdump-group/tcpdump)
+[Sniffnet](https://github.com/GyulyVGC/sniffnet)=Le moniteur de trafic moderne basé sur la rouille avec une belle UI
+[Arkime](https://github.com/arkime/arkime)= capture complète des paquets + indexage pour les grands réseaux=
+[mitmproxy](https://github.com/mitmproxy/mitmproxy)= Proxy d'interception HTTPS interactif
+[bettercap](https://github.com/bettercap/bettercap)
+[EtherApe](https://etherape.sourceforge.io/)= Navigateur de trafic réseau graphique
+[ngrep](https://github.com/jpr5/ngrep)= grep pour la couche réseau=
 
-## 🚨 IDS / IPS & Detection
+IDS / IPS & Détection
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Suricata](https://github.com/OISF/suricata) | High-performance IDS/IPS/NSM engine |
-| [Zeek](https://github.com/zeek/zeek) | Network security monitor with deep protocol analysis |
-| [Snort](https://www.snort.org/) | The original open-source IPS |
-| [Wazuh](https://github.com/wazuh/wazuh) | XDR + SIEM for endpoints and cloud |
-| [OSSEC](https://github.com/ossec/ossec-hids) | Host-based intrusion detection |
-| [Maltrail](https://github.com/stamparm/Maltrail) | Malicious-traffic detection from public blacklists |
-| [RITA](https://github.com/activecm/rita) | Beaconing & C2 detection from Zeek logs |
+[Suricata] (https://github.com/OISF/suricata)
+[Zeek](https://github.com/zeek/zeek)= Surveillance de sécurité réseau avec analyse de protocole profonde=
+[Snort] (https://www.snort.org/) L'IPS d'origine open-source
+[Wazuh](https://github.com/wazuh/wazuh)= XDR + SIEM pour les paramètres et le nuage=
+[OSSEC](https://github.com/ossec/ossec-hids)
+[Maltrail] (https://github.com/stamparm/Maltrail)
+[RITA](https://github.com/activecm/rita)=Détection du sabotage et du C2 à partir de logs Zeek=
 
-## 🔍 Scanning & Recon
+Numérisation et reconnaissance
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Nmap](https://github.com/nmap/nmap) | The port scanner |
-| [Masscan](https://github.com/robertdavidgraham/masscan) | Internet-scale port scanning |
-| [Zmap](https://github.com/zmap/zmap) | Single-packet whole-Internet scanner |
-| [RustScan](https://github.com/RustScan/RustScan) | Blazing-fast modern scanner |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | Template-based vulnerability scanner |
+[Nmap](https://github.com/nmap/nmap) Le scanner de port
+[Masscan] (https://github.com/robertdavidgraham/masscan)
+[Zmap](https://github.com/zmap/zmap)
+[RustScan] (https://github.com/RustScan/RustScan)
+[Nuclei](https://github.com/projectdiscovery/nuclei)
 
-## 🍯 Honeypots & Deception
+Les pots de miel et la perception
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Cowrie](https://github.com/cowrie/cowrie) | SSH/Telnet honeypot |
-| [T-Pot](https://github.com/telekom-security/tpotce) | All-in-one multi-honeypot platform |
-| [Dionaea](https://github.com/DinoTools/dionaea) | Malware-catching honeypot |
-| [OpenCanary](https://github.com/thinkst/opencanary) | Lightweight daemon honeypot |
+[Cowrie] (https://github.com/cowrie/cowrie)
+[T-Pot](https://github.com/telekom-security/tpotce)= Plateforme multi-pots tout-en-un=
+[Dionaea] (https://github.com/DinoTools/dionaea)
+[OpenCanary](https://github.com/thinkst/opencanary)
 
-## 🌐 DNS & Privacy
+## DNS & Privacy
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Pi-hole](https://github.com/pi-hole/pi-hole) | Network-wide ad & tracker blocking |
-| [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) | DNS-level privacy server |
-| [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | Encrypted DNS proxy (DoH/DoT/DNSCrypt) |
-| [unbound](https://github.com/NLnetLabs/unbound) | Validating recursive resolver |
+[Pi-hole] (https://github.com/pi-hole/pi-hole)
+[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)= Serveur de confidentialité DNS
+[dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)= Proxy DNS chiffré (DoH/DoT/DNSCrypt)=
+[non lié](https://github.com/NLnetLabs/unbound)
 
-## 📊 Monitoring & Dashboards
+Surveillance et tableaux de bord
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [ntopng](https://github.com/ntop/ntopng) | Web-based traffic visibility |
-| [Netdata](https://github.com/netdata/netdata) | Real-time system & network metrics |
-| [Kismet](https://www.kismetwireless.net/) | Wireless network detector & sniffer |
-| [vnStat](https://github.com/vergoh/vnstat) | Lightweight traffic accounting |
+[ntopng] (https://github.com/ntop/ntopng)
+[Netdata](https://github.com/netdata/netdata)= Système en temps réel & métriques réseau==
+[Kismet] (https://www.kismetwireless.net/)
+[vnStat](https://github.com/vergoh/vnstat)= Comptabilité du trafic léger=
 
-> **Legend**: 🔥 = actively maintained · ⭐ = editor's pick · All tools free & open-source unless noted.
+> **Legend**: . = activement maintenu · . = choix de l'éditeur · Tous les outils libres et open-source sauf indication contraire.
 
-## 🧰 Reverse Engineering & Traffic Analysis extras
+## Ajouter à l'analyse d'ingénierie et de trafic inverse
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [PacketTotal](https://packettotal.com/) | Cloud pcap analysis — upload, get protocol breakdown |
-| [A-Packets](https://apackets.com/) | Online pcap visualizer |
-| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | Passive sniffer for forensic extraction |
-| [BruteShark](https://github.com/odedshimon/BruteShark) | Network forensics toolkit |
-| [PCredz](https://github.com/lgandx/PCredz) | Credential extraction from pcaps |
+[PacketTotal](https://packettotal.com/)= Analyse de pcap Cloud — téléchargement, analyse du protocole
+[A-Packets](https://apackets.com/)
+[RéseauMiner](https://www.netresec.com/?page=NetworkMiner)
+[BruteShark] (https://github.com/odedshimon/BruteShark)
+[PCredz] (https://github.com/lgandx/PCredz)
 
-## 🚦 Traffic Shaping & QoS
-| Tool | Description |
+Configuration du trafic et QoS
+Description de l'outil
 |---|---|
-| [NetLimiter](https://www.netlimiter.com/) | Per-app bandwidth control (Windows) |
-| `tc` + `tc-cake` | Linux traffic control — shape any flow |
-| [Wondershaper](https://github.com/magnific0/wondershaper) | Simple bandwidth limiting script |
-| [Trickle](https://github.com/mariusae/trickle) | Per-process rate limiting |
+[NetLimiter](https://www.netlimiter.com/)= Contrôle de bande passante par application (Windows)=
+`tc` + `tc-cake`
+[Shaper Wonder](https://github.com/magnific0/wondershaper)
+[Trickle](https://github.com/mariusae/trickle)
 
-## 📡 SD-WAN & Virtual Networks
-| Tool | Description |
+Réseau SD-WAN & Virtual
+Description de l'outil
 |---|---|
-| [Tailscale](https://github.com/tailscale/tailscale) | WireGuard mesh VPN — zero config |
-| [ZeroTier](https://github.com/zerotier/ZeroTierOne) | Virtual Ethernet for the planet |
-| [Netbird](https://github.com/netbirdio/netbird) | Open-source WireGuard management |
-| [Innernet](https://github.com/tonarino/innernet) | Rust WireGuard orchestration |
+[Tailscale](https://github.com/tailscale/tailscale)=                                                                                                                                                                                                                                                  
+[ZeroTier](https://github.com/zerotier/ZeroTierOne)= Ethernet virtuel pour la planète=
+[Netbird](https://github.com/netbirdio/netbird)= Gestion des services de garde-fils de source ouverte=
+[Innernet] (https://github.com/tonarino/innernet)
 
-## 🕵️ Egress & Leak Detection
-| Tool | Description |
+Détection de l'évacuation et des fuites
+Description de l'outil
 |---|---|
-| [Canary Tokens](https://github.com/thinkst/canarytokens) | Free tripwires for data exfil |
-| [GREYNOISE](https://www.greynoise.io/) | Is that IP scanning you or the whole internet? |
-| [IPQualityScore](https://www.ipqualityscore.com/) | IP reputation checks |
+[Jetons canadiens](https://github.com/thinkst/canarytokens)=Les fils de voyage gratuits pour les données exfil=
+[GREYNOISE] (https://www.greynoise.io/) Est-ce que c'est IP vous scanner ou l'Internet entier?
+[IPQualityScore] (https://www.ipqualityscore.com/)
 
 ---
 ## Contribuer
