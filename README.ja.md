@@ -4,118 +4,116 @@
 
 ネットワークセキュリティツール厳選リスト — ファイアウォール、スニファ、IDS、ハニーポット
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
+## 🛡️ファイアウォールとトラフィックフィルタリング
 
-## 🛡️ Firewalls & Traffic Filtering
-
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | Open-source app firewall — see & block every outbound connection, per-process, Sigma rules, 8 languages |
-| [OpenSnitch](https://github.com/evilsocket/opensnitch) | Linux application firewall inspired by Little Snitch |
-| [Portmaster](https://github.com/safing/portmaster) | Application firewall with DNS-level privacy protections |
-| [LuLu](https://github.com/objective-see/LuLu) | The gold-standard outbound firewall for macOS |
-| [simplewall](https://github.com/henrypp/simplewall) | Lightweight WFP-based firewall for Windows |
-| [nftables](https://netfilter.org/projects/nftables/) | The modern Linux packet-filtering framework |
-| [pfSense](https://github.com/pfsense/pfsense) | FreeBSD firewall/router distribution |
-| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Collaborative IPS — blocks hostile IPs using community intel |
-| [fail2ban](https://github.com/fail2ban/fail2ban) | Classic log-based brute-force protector |
+| [Snitch](https://github.com/aixisstudio/Snitch) | オープンソースアプリファイアウォール — あらゆるアウトバウンド接続、パープロセス、シグマルール、8言語の参照とブロック |
+| 【OpenSnitch】(https://github.com/evilsocket/opensnitch) | リトル・スニッチに触発するLinuxアプリケーションファイアウォール |
+| 【ポートマスター】(https://github.com/safing/portmaster) | DNSレベルのプライバシー保護を備えたアプリケーションファイアウォール |
+| 【ルルー】(https://github.com/objective-see/LuLu) | macOS のゴールドスタンダードのアウトバウンドファイアウォール |
+| [simplewall](https://github.com/henrypp/simplewall) | Windows用軽量WFPベースのファイアウォール |
+| [nftables](https://netfilter.org/projects/nftables/) | 現代のLinuxパケットフィルタフレームワーク |
+| 【pfSense】(https://github.com/pfsense/pfsense) | FreeBSD ファイアウォール/ルーター配布 |
+| [クラウドSec](https://github.com/crowdsecurity/crowdsec) | コミュニティ・インテルによる敵対IPブロック |
+| 【fail2ban】(https://github.com/fail2ban/fail2ban) | クラシックログベースブルトフォースプロテクター |
 
-## 📡 Packet Capture & Analysis
+## パケットキャプチャと分析
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Wireshark](https://gitlab.com/wireshark/wireshark) | The reference protocol analyzer |
-| [tcpdump](https://github.com/the-tcpdump-group/tcpdump) | CLI packet capture — everywhere, always |
-| [Sniffnet](https://github.com/GyulyVGC/sniffnet) | Modern Rust-based traffic monitor with beautiful UI |
-| [Arkime](https://github.com/arkime/arkime) | Full packet capture + indexing for large networks |
-| [mitmproxy](https://github.com/mitmproxy/mitmproxy) | Interactive HTTPS interception proxy |
-| [bettercap](https://github.com/bettercap/bettercap) | Swiss-army knife for network attacks & monitoring |
-| [EtherApe](https://etherape.sourceforge.io/) | Graphical network traffic browser |
-| [ngrep](https://github.com/jpr5/ngrep) | grep for the network layer |
+| 【Wireshark】(https://gitlab.com/wireshark/wireshark) | リファレンスプロトコルアナライザ |
+| 【tcpdump】(https://github.com/the-tcpdump-group/tcpdump) | クリップキャプチャー — どこでも |
+| 【Sniffnet】(https://github.com/GyulyVGC/sniffnet) | 美しいUIでモダンなRustベースのトラフィックモニター |
+| [Arkime](https://github.com/arkime/arkime) | 大型ネットワーク向けフルパケットキャプチャ+インデックス作成 |
+| [mitmproxy](https://github.com/mitmproxy/mitmproxy) | インタラクティブHTTPSの介入プロキシ |
+| 【ベターキャップ】(https://github.com/bettercap/bettercap) | ネットワーク攻撃・監視用スイス式ナイフ |
+| 【イーサリアペ】(https://etherape.sourceforge.io/) | グラフィックネットワークのトラフィックブラウザ |
+| [ngrep](https://github.com/jpr5/ngrep) | ネットワーク層別 |
 
-## 🚨 IDS / IPS & Detection
+## 使い捨て IDS/IPS/検出
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Suricata](https://github.com/OISF/suricata) | High-performance IDS/IPS/NSM engine |
-| [Zeek](https://github.com/zeek/zeek) | Network security monitor with deep protocol analysis |
-| [Snort](https://www.snort.org/) | The original open-source IPS |
-| [Wazuh](https://github.com/wazuh/wazuh) | XDR + SIEM for endpoints and cloud |
-| [OSSEC](https://github.com/ossec/ossec-hids) | Host-based intrusion detection |
-| [Maltrail](https://github.com/stamparm/Maltrail) | Malicious-traffic detection from public blacklists |
-| [RITA](https://github.com/activecm/rita) | Beaconing & C2 detection from Zeek logs |
+| 【成田】(https://github.com/OISF/suricata) | 高性能 IDS/IPS/NSM エンジン |
+| 【Zeek】(https://github.com/zeek/zeek) | ディーププロトコル解析によるネットワークセキュリティモニター |
+| 【予告】(https://www.snort.org/) | オリジナルオープンソース IPS |
+| 【Wazuh】(https://github.com/wazuh/wazuh) | XDR + SIEM エンドポイント・クラウド向け |
+| 【OSSEC】(https://github.com/ossec/ossec-hids) | ホスト型侵入検知 |
+| 【Maltrail】(https://github.com/stamparm/Maltrail) | パブリックブラックリストによる悪質な異物検出 |
+| 【RITA】(https://github.com/activecm/rita) | ビーコン&チークログによるC2検出 |
 
-## 🔍 Scanning & Recon
+## スキャン&リコン
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Nmap](https://github.com/nmap/nmap) | The port scanner |
-| [Masscan](https://github.com/robertdavidgraham/masscan) | Internet-scale port scanning |
-| [Zmap](https://github.com/zmap/zmap) | Single-packet whole-Internet scanner |
-| [RustScan](https://github.com/RustScan/RustScan) | Blazing-fast modern scanner |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | Template-based vulnerability scanner |
+| 【Nmap】(https://github.com/nmap/nmap) | ポートスキャナ |
+| 【Masscan】(https://github.com/robertdavidgraham/masscan) | インターネット規模のポートスキャン |
+| 【Zmap】(https://github.com/zmap/zmap) | シングルパケット全インターネットスキャナ |
+| 【RustScan】(https://github.com/RustScan/RustScan) | ブロースファストモダンスキャナ |
+| [Nuclei](https://github.com/projectdiscovery/nuclei) | テンプレートベースの脆弱性スキャナー |
 
-## 🍯 Honeypots & Deception
+## ハネスポットと認知
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Cowrie](https://github.com/cowrie/cowrie) | SSH/Telnet honeypot |
-| [T-Pot](https://github.com/telekom-security/tpotce) | All-in-one multi-honeypot platform |
-| [Dionaea](https://github.com/DinoTools/dionaea) | Malware-catching honeypot |
-| [OpenCanary](https://github.com/thinkst/opencanary) | Lightweight daemon honeypot |
+| 【Cowrie】(https://github.com/cowrie/cowrie) | SSH/Telnet はちみつ |
+| 【T-Pot】(https://github.com/telekom-security/tpotce) | オールインワンマルチホニーポットプラットフォーム |
+| 【ジオナア】(https://github.com/DinoTools/dionaea) | マルウェア対策 | マルウェア対策 |
+| 【オープンカナリー】(https://github.com/thinkst/opencanary) | 軽量デーモンハニーポット |
 
-## 🌐 DNS & Privacy
+## インポート DNS & プライバシー
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Pi-hole](https://github.com/pi-hole/pi-hole) | Network-wide ad & tracker blocking |
-| [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) | DNS-level privacy server |
-| [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | Encrypted DNS proxy (DoH/DoT/DNSCrypt) |
-| [unbound](https://github.com/NLnetLabs/unbound) | Validating recursive resolver |
+| 【Pi-hole】(https://github.com/pi-hole/pi-hole) | 全国の広告・追跡者ブロック |
+| 【ガードホーム】(https://github.com/AdguardTeam/AdGuardHome) | DNSレベルのプライバシーサーバ |
+| [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | 暗号化されたDNSプロキシ(DoH/DoT/DNSCrypt) |
+| [unbound](https://github.com/NLnetLabs/unbound) | 再帰的解決剤の検証 |
 
-## 📊 Monitoring & Dashboards
+## 監視&ダッシュボード
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [ntopng](https://github.com/ntop/ntopng) | Web-based traffic visibility |
-| [Netdata](https://github.com/netdata/netdata) | Real-time system & network metrics |
-| [Kismet](https://www.kismetwireless.net/) | Wireless network detector & sniffer |
-| [vnStat](https://github.com/vergoh/vnstat) | Lightweight traffic accounting |
+| 【ntopng】(https://github.com/ntop/ntopng) | Webによるトラフィックの可視性 |
+| [Netdata](https://github.com/netdata/netdata) | リアルタイムシステム・ネットワークメトリック |
+| 【Kismet】(https://www.kismetwireless.net/) | 無線ネットワークディテクタ・スニッファ |
+|【vnStat】(https://github.com/vergoh/vnstat) | 軽量化|軽量化|
 
-> **Legend**: 🔥 = actively maintained · ⭐ = editor's pick · All tools free & open-source unless noted.
+>**Legend**: ◀ = 積極的に維持される · ◀ = エディタのピック · 通知されない限り、すべてのツールは無料&オープンソース。
 
-## 🧰 Reverse Engineering & Traffic Analysis extras
+## リバースエンジニアリング&トラフィック分析エキストラ
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [PacketTotal](https://packettotal.com/) | Cloud pcap analysis — upload, get protocol breakdown |
-| [A-Packets](https://apackets.com/) | Online pcap visualizer |
-| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | Passive sniffer for forensic extraction |
-| [BruteShark](https://github.com/odedshimon/BruteShark) | Network forensics toolkit |
-| [PCredz](https://github.com/lgandx/PCredz) | Credential extraction from pcaps |
+| [PacketTotal](https://packettotal.com/) | クラウド pcap 解析 — アップロード、プロトコルの破壊 |
+| [A-Packets](https://apackets.com/) | オンラインのpcapビジュラ |
+| 【ネットワークマイナー】(https://www.netresec.com/?page=NetworkMiner) | フォレンジック抽出用パッシブスニッファ |
+| 【BruteShark】(https://github.com/odedshimon/BruteShark) | ネットワークフォレンジックツールキット |
+| [PCredz](https://github.com/lgandx/PCredz) | pcaps のクレデンシャル抽出 |
 
-## 🚦 Traffic Shaping & QoS
-| Tool | Description |
+## 観光&QoS
+| ツール | 説明 |
 |---|---|
-| [NetLimiter](https://www.netlimiter.com/) | Per-app bandwidth control (Windows) |
-| `tc` + `tc-cake` | Linux traffic control — shape any flow |
-| [Wondershaper](https://github.com/magnific0/wondershaper) | Simple bandwidth limiting script |
-| [Trickle](https://github.com/mariusae/trickle) | Per-process rate limiting |
+| 【NetLimiter】(https://www.netlimiter.com/) | アプリごとの帯域幅制御(Windows) |
+| `tc` + `tc-cake` | Linux トラフィック制御 | フローの形状 |
+| [Wondershaper](https://github.com/magnific0/wondershaper) | シンプルな帯域幅制限スクリプト |
+| [Trickle](https://github.com/mariusae/trickle) | 加工速度制限 |
 
-## 📡 SD-WAN & Virtual Networks
-| Tool | Description |
+##SD-WANと仮想ネットワーク
+| ツール | 説明 |
 |---|---|
-| [Tailscale](https://github.com/tailscale/tailscale) | WireGuard mesh VPN — zero config |
-| [ZeroTier](https://github.com/zerotier/ZeroTierOne) | Virtual Ethernet for the planet |
-| [Netbird](https://github.com/netbirdio/netbird) | Open-source WireGuard management |
-| [Innernet](https://github.com/tonarino/innernet) | Rust WireGuard orchestration |
+| 【Tailscale】(https://github.com/tailscale/tailscale) | WireGuard メッシュ VPN — ゼロ設定 |
+|【ゼロティア】(https://github.com/zerotier/ZeroTierOne) | 地球の仮想イーサネット |
+| 【Netbird】(https://github.com/netbirdio/netbird) | オープンソースのWireGuard管理 |
+| 【インネルネット】(https://github.com/tonarino/innernet) | 錆ワイヤーガードのオーケストレーション |
 
-## 🕵️ Egress & Leak Detection
-| Tool | Description |
+## ️️ エグレス&リーク検出
+| ツール | 説明 |
 |---|---|
-| [Canary Tokens](https://github.com/thinkst/canarytokens) | Free tripwires for data exfil |
-| [GREYNOISE](https://www.greynoise.io/) | Is that IP scanning you or the whole internet? |
-| [IPQualityScore](https://www.ipqualityscore.com/) | IP reputation checks |
+| 【カナリアトークン】(https://github.com/thinkst/canarytokens) | データエクスフィルのフリートリップワイヤー |
+| 【GREYNOISE】(https://www.greynoise.io/) | IP はインターネット全体でスキャンする? |
+| 【IPQualityScore】(https://www.ipqualityscore.com/) | 知財評価チェック |
 
 ---
 ## 貢献
