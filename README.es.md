@@ -4,118 +4,116 @@
 
 Lista curada de herramientas de seguridad de red — firewalls, sniffers, IDS, honeypots
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
+## 🛡ف Firewalls &quot; Traffic Filtering
 
-## 🛡️ Firewalls & Traffic Filtering
-
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | Open-source app firewall — see & block every outbound connection, per-process, Sigma rules, 8 languages |
-| [OpenSnitch](https://github.com/evilsocket/opensnitch) | Linux application firewall inspired by Little Snitch |
-| [Portmaster](https://github.com/safing/portmaster) | Application firewall with DNS-level privacy protections |
-| [LuLu](https://github.com/objective-see/LuLu) | The gold-standard outbound firewall for macOS |
-| [simplewall](https://github.com/henrypp/simplewall) | Lightweight WFP-based firewall for Windows |
-| [nftables](https://netfilter.org/projects/nftables/) | The modern Linux packet-filtering framework |
-| [pfSense](https://github.com/pfsense/pfsense) | FreeBSD firewall/router distribution |
-| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Collaborative IPS — blocks hostile IPs using community intel |
-| [fail2ban](https://github.com/fail2ban/fail2ban) | Classic log-based brute-force protector |
+TEN [Snitch] (https://github.com/aixisstudio/Snitch) ANTE Open-source app firewall — ver &amp; bloquear cada conexión externa, por proceso, reglas Sigma, 8 idiomas ANTE
+Silencio [OpenSnitch] (https://github.com/evilsocket/opensnitch)
+Silencio [Portmaster](https://github.com/safing/portmaster)
+[LuLu] (https://github.com/objective-see/LuLu) El firewall de oro para macOS
+Silencio [simplewall] (https://github.com/henrypp/simplewall)
+[nftables] (https://netfilter.org/projects/nftables/) El moderno marco de llenado de paquetes de Linux
+Silencio [pfSense] (https://github.com/pfsense/pfsense)
+Silencio [CrowdSec] (https://github.com/crowdsecurity/crowdsec) Silencio IPS colaborativo — bloquea IPs hostiles usando intel comunitario
+Silencio [fail2ban] (https://github.com/fail2ban/fail2ban)
 
-## 📡 Packet Capture & Analysis
+## 📡 Packet Capture &amp; Analysis
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Wireshark](https://gitlab.com/wireshark/wireshark) | The reference protocol analyzer |
-| [tcpdump](https://github.com/the-tcpdump-group/tcpdump) | CLI packet capture — everywhere, always |
-| [Sniffnet](https://github.com/GyulyVGC/sniffnet) | Modern Rust-based traffic monitor with beautiful UI |
-| [Arkime](https://github.com/arkime/arkime) | Full packet capture + indexing for large networks |
-| [mitmproxy](https://github.com/mitmproxy/mitmproxy) | Interactive HTTPS interception proxy |
-| [bettercap](https://github.com/bettercap/bettercap) | Swiss-army knife for network attacks & monitoring |
-| [EtherApe](https://etherape.sourceforge.io/) | Graphical network traffic browser |
-| [ngrep](https://github.com/jpr5/ngrep) | grep for the network layer |
+[Wireshark] (https://gitlab.com/wireshark/wireshark) El analizador de protocolo de referencia
+Silencio [tcpdump] (https://github.com/the-tcpdump-group/tcpdump)
+Silencio [Sniffnet] (https://github.com/GyulyVGC/sniffnet)
+Silencio [Arquime](https://github.com/arkime/arkime) Silencio Captura de paquete completo + indexación para grandes redes ANTE
+Silencio [mitmproxy] (https://github.com/mitmproxy/mitmproxy) Silencio Interactivo HTTPS intercepción proxy
+Silencio [bettercap] (https://github.com/bettercap/bettercap) TENIDO Cuchillo suizo-army para ataques de red &quot; monitoreo TEN
+Silencio [EtherApe] (https://etherape.sourceforge.io/)
+[ngrep] (https://github.com/jpr5/ngrep)
 
-## 🚨 IDS / IPS & Detection
+Detección IDS / IPS
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Suricata](https://github.com/OISF/suricata) | High-performance IDS/IPS/NSM engine |
-| [Zeek](https://github.com/zeek/zeek) | Network security monitor with deep protocol analysis |
-| [Snort](https://www.snort.org/) | The original open-source IPS |
-| [Wazuh](https://github.com/wazuh/wazuh) | XDR + SIEM for endpoints and cloud |
-| [OSSEC](https://github.com/ossec/ossec-hids) | Host-based intrusion detection |
-| [Maltrail](https://github.com/stamparm/Maltrail) | Malicious-traffic detection from public blacklists |
-| [RITA](https://github.com/activecm/rita) | Beaconing & C2 detection from Zeek logs |
+[Suricata] (https://github.com/OISF/suricata)   Motor IDS/IPS/NSM de alto rendimiento
+Silencio [Zeek](https://github.com/zeek/zeek) Silencio Monitor de seguridad de la red con análisis profundos del protocolo
+[Snort] (https://www.snort.org/) El IPS de código abierto original
+[Wazuh] (https://github.com/wazuh/wazuh) Silencio XDR + SIEM para endpoints y nubes
+Silencio [OSSEC] (https://github.com/ossec/ossec-hids)
+Silencio [Maltrail] (https://github.com/stamparm/Maltrail)
+Silencio [RITA](https://github.com/activecm/rita) Silencio Detección Beaconing &amp; C2 de troncos Zeek
 
-## 🔍 Scanning & Recon
+## 🔍 Scanning &gt; Recon
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Nmap](https://github.com/nmap/nmap) | The port scanner |
-| [Masscan](https://github.com/robertdavidgraham/masscan) | Internet-scale port scanning |
-| [Zmap](https://github.com/zmap/zmap) | Single-packet whole-Internet scanner |
-| [RustScan](https://github.com/RustScan/RustScan) | Blazing-fast modern scanner |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | Template-based vulnerability scanner |
+[Nmap] (https://github.com/nmap/nmap) El escáner de puerto Ø
+Silencio [Masscan] (https://github.com/robertdavidgraham/masscan)
+Silencio [Zmap] (https://github.com/zmap/zmap)
+Silencio [RustScan] (https://github.com/RustScan/RustScan)
+Silencio [Nuclei] (https://github.com/projectdiscovery/nuclei)
 
-## 🍯 Honeypots & Deception
+## 🍯 Honeypots &apos; Deception
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Cowrie](https://github.com/cowrie/cowrie) | SSH/Telnet honeypot |
-| [T-Pot](https://github.com/telekom-security/tpotce) | All-in-one multi-honeypot platform |
-| [Dionaea](https://github.com/DinoTools/dionaea) | Malware-catching honeypot |
-| [OpenCanary](https://github.com/thinkst/opencanary) | Lightweight daemon honeypot |
+[Cowrie] (https://github.com/cowrie/cowrie)
+Silencio [T-Pot] (https://github.com/telekom-security/tpotce)
+[Dionaea] (https://github.com/DinoTools/dionaea)
+[OpenCanary] (https://github.com/thinkst/opencanary)
 
-## 🌐 DNS & Privacy
+## 🌐 DNS &gt; Privacidad
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Pi-hole](https://github.com/pi-hole/pi-hole) | Network-wide ad & tracker blocking |
-| [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) | DNS-level privacy server |
-| [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | Encrypted DNS proxy (DoH/DoT/DNSCrypt) |
-| [unbound](https://github.com/NLnetLabs/unbound) | Validating recursive resolver |
+Silencio [Pi-hole] (https://github.com/pi-hole/pi-hole)
+Silencio [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)
+Silencioso [dnscrypt-proxy] (https://github.com/DNSCrypt/dnscrypt-proxy)
+Silencio [unbound] (https://github.com/NLnetLabs/unbound) Silencio Validando la resolución recursiva
 
-## 📊 Monitoring & Dashboards
+## 📊 Monitoring &quot; Dashboards
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [ntopng](https://github.com/ntop/ntopng) | Web-based traffic visibility |
-| [Netdata](https://github.com/netdata/netdata) | Real-time system & network metrics |
-| [Kismet](https://www.kismetwireless.net/) | Wireless network detector & sniffer |
-| [vnStat](https://github.com/vergoh/vnstat) | Lightweight traffic accounting |
+Silencio [ntopng] (https://github.com/ntop/ntopng)
+Silencio [Netdata] (https://github.com/netdata/netdata)
+Silencio [Kismet] (https://www.kismetwireless.net/)
+Silencio [vnStat] (https://github.com/vergoh/vnstat)
 
-> **Legend**: 🔥 = actively maintained · ⭐ = editor's pick · All tools free & open-source unless noted.
+**Legend**: 🔥 = mantenimiento activo · ⭐ = selección del editor · Todas las herramientas libres &quot; de código abierto a menos que se note.
 
-## 🧰 Reverse Engineering & Traffic Analysis extras
+## 🧰 Inversión de la ingeniería &gt; Extras de análisis de tráfico
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [PacketTotal](https://packettotal.com/) | Cloud pcap analysis — upload, get protocol breakdown |
-| [A-Packets](https://apackets.com/) | Online pcap visualizer |
-| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | Passive sniffer for forensic extraction |
-| [BruteShark](https://github.com/odedshimon/BruteShark) | Network forensics toolkit |
-| [PCredz](https://github.com/lgandx/PCredz) | Credential extraction from pcaps |
+Silencio [PacketTotal] (https://packettotal.com/) Silencio Análisis de pcap en la nube — subir, obtener la descomposición de protocolo ←
+Silencio [A-Packets] (https://apackets.com/)
+Silencio [NetworkMiner] (https://www.netresec.com/?page=NetworkMiner)
+Silencio [BruteShark] (https://github.com/odedshimon/BruteShark)
+[PCredz] (https://github.com/lgandx/PCredz)
 
-## 🚦 Traffic Shaping & QoS
-| Tool | Description |
+## 🚦 Traffic Shaping &gt; QoS
+← Herramienta Silencioso
 |---|---|
-| [NetLimiter](https://www.netlimiter.com/) | Per-app bandwidth control (Windows) |
-| `tc` + `tc-cake` | Linux traffic control — shape any flow |
-| [Wondershaper](https://github.com/magnific0/wondershaper) | Simple bandwidth limiting script |
-| [Trickle](https://github.com/mariusae/trickle) | Per-process rate limiting |
+[NetLimiter] (https://www.netlimiter.com/) Silencio Per-app control de ancho de banda (Windows)
+TEN `tc` + `tc-cake` ANTE el control de tráfico de Linux: moldear cualquier flujo
+Silencio [Wondershaper] (https://github.com/magnific0/wondershaper)
+[Trickle] (https://github.com/mariusae/trickle)
 
-## 📡 SD-WAN & Virtual Networks
-| Tool | Description |
+## 📡 SD-WAN &amp; Virtual Networks
+← Herramienta Silencioso
 |---|---|
-| [Tailscale](https://github.com/tailscale/tailscale) | WireGuard mesh VPN — zero config |
-| [ZeroTier](https://github.com/zerotier/ZeroTierOne) | Virtual Ethernet for the planet |
-| [Netbird](https://github.com/netbirdio/netbird) | Open-source WireGuard management |
-| [Innernet](https://github.com/tonarino/innernet) | Rust WireGuard orchestration |
+[Tailscale] (https://github.com/tailscale/tailscale)
+[ZeroTier] (https://github.com/zerotier/ZeroTierOne) TENIDO Virtual Ethernet para el planeta
+Silencio [Netbird](https://github.com/netbirdio/netbird)
+[Innernet] (https://github.com/tonarino/innernet)
 
-## 🕵️ Egress & Leak Detection
-| Tool | Description |
+## Egress &amp; Leak Detection
+← Herramienta Silencioso
 |---|---|
-| [Canary Tokens](https://github.com/thinkst/canarytokens) | Free tripwires for data exfil |
-| [GREYNOISE](https://www.greynoise.io/) | Is that IP scanning you or the whole internet? |
-| [IPQualityScore](https://www.ipqualityscore.com/) | IP reputation checks |
+Silencio [Canary Tokens] (https://github.com/thinkst/canarytokens)
+[GREYNOISE] (https://www.greynoise.io/) ¿Es que IP te escanea o todo el Internet?
+Silencio [IPQualityScore] (https://www.ipqualityscore.com/)
 
 ---
 ## Contribuir
