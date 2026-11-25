@@ -8,7 +8,7 @@ A curated list of network security tools — firewalls, sniffers, IDS, honeypots
 
 | Tool | Description |
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | Open-source app firewall — see & block every outbound connection, per-process, Sigma rules, 8 languages |
+| [Wiretap](https://github.com/aixisstudio/Wiretap) | Open-source app firewall — see & block every outbound connection, per-process, Sigma rules, 8 languages |
 | [OpenSnitch](https://github.com/evilsocket/opensnitch) | Linux application firewall inspired by Little Snitch |
 | [Portmaster](https://github.com/safing/portmaster) | Application firewall with DNS-level privacy protections |
 | [LuLu](https://github.com/objective-see/LuLu) | The gold-standard outbound firewall for macOS |
@@ -116,7 +116,7 @@ A curated list of network security tools — firewalls, sniffers, IDS, honeypots
 | [IPQualityScore](https://www.ipqualityscore.com/) | IP reputation checks |
 
 ---
-Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall.
+Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Wiretap](https://github.com/aixisstudio/Wiretap), the open-source application firewall.
 
 ## License
 
